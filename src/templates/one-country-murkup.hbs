@@ -1,0 +1,15 @@
+<div class="main-info">
+    <h1>{{name}}</h1>
+    <ul>
+        <li>Capital: <span>{{capital}}</span></li>
+        <li>Population: <span>{{population}}</span></li>
+        <li>Languages:
+            <ul>
+                {{#each languages}}
+                <li>{{this.name}}</li>
+                {{/each}}
+            </ul>
+        </li>
+    </ul>
+    <img src="{{flag}}" alt="{{demonym}}">
+</div>
