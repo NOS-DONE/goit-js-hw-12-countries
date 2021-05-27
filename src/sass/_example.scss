@@ -1,31 +1,40 @@
 .search-container {
+  justify-content: center;
+
   display: flex;
   flex-direction: column;
   padding: 20px;
 }
 
-.country-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-}
+// .country-container {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   width: 550px;
+// }
 
 .container {
   display: flex;
-  flex-direction: column;
 }
 
 .input {
+  display: flex;
+
+  // justify-content: center;
   width: 450px;
+  height: 30px;
 }
 
 .main-info {
   display: flex;
+  justify-content: center;
 }
 
 .name {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  // text-align: center;
 }
 
 .details {
@@ -45,7 +54,7 @@
 }
 
 .flag {
-  width: 200px;
+  width: 300px;
 }
 
 .bold {
