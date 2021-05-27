@@ -60,3 +60,22 @@
 .bold {
   font-weight: 600;
 }
+
+.country-list {
+  display: flex;
+  flex-direction: column;
+}
+.country-item {
+}
+
+.country-item-btn {
+  min-width: 100px;
+  height: 20px;
+  background-color: rgb(172, 207, 230);
+  border: 0;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  text-align: left;
+  cursor: pointer;
+}

@@ -1,5 +1,5 @@
-<ul>
+<ul class="country-list">
     {{#each this}}
-    <li>{{this.name}}</li>
+    <li > <button data-code="{{alpha3Code}}" class="country-item-btn country-item" type="submit">{{this.name}}</button> </li>
     {{/each}}
 </ul>
