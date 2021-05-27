@@ -1,15 +1,17 @@
-<div class="main-info">
-    <h1>{{name}}</h1>
-    <ul>
-        <li>Capital: <span>{{capital}}</span></li>
-        <li>Population: <span>{{population}}</span></li>
-        <li>Languages:
-            <ul>
-                {{#each languages}}
-                <li>{{this.name}}</li>
-                {{/each}}
-            </ul>
-        </li>
-    </ul>
-    <img src="{{flag}}" alt="{{demonym}}">
+<div class="country-container">
+    <h1 class="name">{{name}}</h1>
+    <div class="main-info">
+        <ul class="details">
+            <li><span class="bold">Capital:</span> {{capital}}</li>
+            <li><span class="bold">Population: </span>{{population}}</li>
+            <li><span class="bold">Languages:</span>
+                <ul class="languages">
+                    {{#each languages}}
+                    <li >{{this.name}}</li>
+                    {{/each}}
+                </ul>
+            </li>
+        </ul>
+        <img class="flag" src="{{flag}}" alt="{{demonym}}">
+    </div>
 </div>
